@@ -55,7 +55,7 @@ Sample ED25519 signature:
 }
 ```
 
-Sample PKCS 1.5 signature:
+Sample
 ```plaintext
 
 ```
