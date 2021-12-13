@@ -2,7 +2,7 @@
 
 ED25519 signature and verification
 
-For more information see here: http://fluttercrypto.bplaced.net/libsodium-signature-playground-pinacl/
+For more information see here: http://fluttercrypto.bplaced.net/libsodium-signature-playground-pinenacl/
 
 ```plaintext
 https://pub.dev/packages/pinenacl
@@ -27,31 +27,31 @@ in AndroidManifest.xml ergänzen:
     
 BundleId/Application ID: de.fluttercrypto.signature_playground_libsodium
 Name: Libsodium signature and verification
-name: libsodium_signature_playground_pinacl
+name: libsodium_signature_playground_pinenacl
 description: Libsodium signature and verification    
 ```    
 
 Private key:
 ```plaintext
-RyKvBjdiT8jwK/wYkWN1Dep9zuZHxMRJR2G0fO3hCdFJ1lj4GCMrtFkvyoLu6oTKoJ6LNdd/yk9u5y4KqbPtvQ==
+Wnv1HvaGa1atAy+enkP0L+HTiNWttx/kjmpWopQl/2hwLV6puP9PWqpOan6mW5xSrT+/t7CO/HDBkLLtj3iNSQ==
 ```
 
 PublicKey:
 ```plaintext
-SdZY+BgjK7RZL8qC7uqEyqCeizXXf8pPbucuCqmz7b0=
+cC1eqbj/T1qqTmp+plucUq0/v7ewjvxwwZCy7Y94jUk=
 ```
 
 Klartext:
 ```plaintext
-The quick brown fox jumps over the lazy dog
+Mein wichtiges Geheimnis
 ```
 
 Sample ED25519 signature:
 ```plaintext
 {
   "algorithm": "ED25519 signature",
-  "plaintext": "VGhlIHF1aWNrIGJyb3duIGZveCBqdW1wcyBvdmVyIHRoZSBsYXp5IGRvZw==",
-  "signature": "5TDJ6zGgCCIheik1caFnAdQqI4HWedUEQ0zDWeiXlU3/McIXZTptZdjbXeos9NIOYhwTJ+bwrkzY+M3527R8BQ=="
+  "plaintext": "TWVpbiB3aWNodGlnZXMgR2VoZWltbmlz",
+  "signature": "oO5ESguk3TekZccKVcVoCKWRUXVD9yPzDM7K+c2O62cXLsZRGf5XkmoX3BjBGOrF/l8HyOcQjg9ZeLAkVll0Dw=="
 }
 ```
 
